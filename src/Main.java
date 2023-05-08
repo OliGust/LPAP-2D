@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("Salve mundo!");
 // Laço enquanto - while
         int contador = 0;
         while(contador < 10){
