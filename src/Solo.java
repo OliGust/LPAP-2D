@@ -6,6 +6,7 @@ public class Solo {
 
     //Método
     public Planta gerarPlanta(Semente semente){
+
         return new Planta(semente);
     }
 }

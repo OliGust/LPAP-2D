@@ -29,5 +29,19 @@ public class Main {
         Pessoa nova = new Pessoa();
         nova.nome = "Tina";
         nova.comer();
+
+        //construir objetos
+        Semente s1 = new Semente();
+        Animal cao1 = new Animal("pastor");
+        Animal gato1 = new Animal("Laranja");
+        Animal cobra;
+        cobra = new Animal();
+        cobra = new Animal("Naja");
+        Animal coelho;
+        coelho = new Animal("Roger" , "Rabbit");
+        //coelho.peso = 2.5;
+        coelho.setPeso("AD",2.5);
+        //System.out.println(coelho.peso);
+        System.out.println(coelho.getPeso());
     }
 }
